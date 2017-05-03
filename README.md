@@ -29,9 +29,9 @@ then navigate to http://localhost:1337/
 * React
 * Redux
 * Lodash
-* MUI React [I'm an inline-style link](https://www.muicss.com/docs/v1/react/introduction)
+* [MUI React](https://www.muicss.com/docs/v1/react/introduction)
 * React-bootstrap
-* Bones boilerplate [I'm an inline-style link](https://github.com/lolakiller/bones)
+* [Bones boilerplate](https://github.com/lolakiller/bones)
 
 ## Some comments
 
