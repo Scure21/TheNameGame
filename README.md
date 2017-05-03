@@ -5,8 +5,8 @@ This is my version of the Name Game. A fun way to get to know you future possibl
 ## How does this game help my STM?
 It provides 4 different rounds where you get to look at some pictures with faces and corresponding names of your future co-workers for 20 seconds. After that, the names disappear and the images are relocated in th screen, this way you can't just associate a certain location of the screen with a name, instead you have to actually remember people faces. 
 
-There are 3 normal rounds. If you guess correctly you rearn 50 points, if you don't, well no points earned!
-The 4th round is a the hardest one! roughly 90% of your future co-workers are named Mat(t). In this round only people whose name starts with Mat(t) will be displayed, if you guess correctly you get 200 points.
+* There are 3 normal rounds. If you guess correctly you earn 50 points, if you don't, well no points earned!
+* The 4th round is a the hardest one! roughly 90% of your future co-workers are named Mat(t). In this round only people whose name starts with Mat(t) will be displayed, if you guess correctly you get 200 points.
 
 ## To run it
 
