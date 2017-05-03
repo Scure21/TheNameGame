@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { browserHistory } from 'react-router'
 import Panel from 'muicss/lib/react/panel'
 import Pager from 'react-bootstrap/lib/Pager.js'
+import _ from 'lodash'
 
 export default class Game extends Component {
   constructor (props) {
@@ -44,7 +45,8 @@ export default class Game extends Component {
       this.setState({nameToggle: true})
       this.setState({textToggle: true})
       this.setState({onClickToggle: true})
-      this.props.getRandomPerson(this.props.info[3])
+      const randomIndex = _.random(0, this.props.info.length - 1)
+      this.props.getRandomPerson(this.props.info[randomIndex])
       this.props.shuffleImages(this.props.info)
     }
   }

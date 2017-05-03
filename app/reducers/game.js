@@ -21,11 +21,7 @@ export const getGameInfo = (info) => {
   return ({type: GAME_INFO, roundImages})
 }
 
-export const getOnlyMatts = (matts) => {
-  const randomMatts = randomIndexes(matts)
-  const info = randomMatts.map(i => matts[i])
-  return ({type: GET_ONLY_MAT, info})
-}
+export const getOnlyMatts = (info) => ({type: GET_ONLY_MAT, info})
 
 export const getRoundNumber = () => ({type: ROUND_NUMBER})
 
