@@ -1,0 +1,140 @@
+html body, #main, #main > div {
+  width: 100%;
+  height: 100%;
+  background-color: #86BBD8;
+}
+
+.title {
+  text-align: center;
+  padding: 20px;
+}
+
+.mui-panel {
+  padding: 20px;
+}
+
+ul.header {
+  background-color: #86BBD8;
+  padding: 0;
+}
+
+ul.header li{
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.header li:hover {
+  opacity: 0.6;
+}
+
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 100%;
+}
+
+ul.instructions-list {
+  list-style-image: url('star.jpg');
+}
+.game-board{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mui--text-display3 {
+  text-align: center;
+  padding: 5px;
+}
+
+.img {
+  border-radius: 50%;
+  animation-duration: 2s;
+  animation-name: bounceIn;
+  width:  220px !important;
+  height: 220px !important;
+  border: 10px;
+  cursor: pointer;
+  position: relative;
+  margin: 10px;
+}
+
+.star-img{
+  width:  40px;
+  height: 40px;
+}
+
+.img:hover {
+  opacity: 0.6;
+}
+
+.person-name {
+  animation-duration: 0.5s;
+  animation-name: bounceIn;
+  border: 10px;
+  padding: 5px;
+}
+
+.img-wrapper {
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.img-wrapper-ok {
+  background-color: rgba(76, 175, 80, 0.6);
+  border-radius: 50%;
+}
+
+.img-wrapper-wrong {
+  background-color: rgba(250,	10,	25, 0.6);
+  border-radius: 50%;
+}
+
+@keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes bounceOut {
+  20% {
+    transform: scale3d(.9, .9, .9);
+  }
+
+  50%, 55% {
+    opacity: 1;
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+}

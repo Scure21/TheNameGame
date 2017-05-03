@@ -1,6 +1,4 @@
 'use strict'
-
-const {resolve} = require('path')
 const chalk = require('chalk')
 const pkg = require('./package.json')
 const debug = require('debug')(`${pkg.name}:boot`)
@@ -25,21 +23,7 @@ if (!reasonableName.test(pkg.name)) {
   console.error(chalk.red(nameError))
 }
 
-// This will load a secrets file from
-//
-//      ~/.your_app_name.env.js
-//   or ~/.your_app_name.env.json
-//
-// and add it to the environment.
-// Note that this needs to be in your home directory, not the project's root directory
 const env = Object.create(process.env)
-  , secretsFile = resolve(env.HOME, `.${pkg.name}.env`)
-try {
-  Object.assign(env, require(secretsFile))
-} catch (error) {
-  debug('%s: %s', secretsFile, error.message)
-  debug('%s: env file not found or invalid, moving on', secretsFile)
-}
 
 const PORT = process.env.PORT || 1337
 
@@ -56,5 +40,5 @@ module.exports = {
     return env.PORT || 1337
   },
   package: pkg,
-  env,
+  env
 }
