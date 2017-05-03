@@ -36,5 +36,6 @@ then navigate to http://localhost:1337/
 ## Some comments
 
 * The redux-logger is used to easily visualize state changes in Chrome Dev Tools.
-* 
+* The amount of images vary. This depends if there are duplicates, I'm removing one.
+* I'm sure there are still bugs!
 
