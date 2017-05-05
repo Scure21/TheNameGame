@@ -8,7 +8,7 @@ const App = (props) => (
   <Container className="container" >
     <div>
       <div className="mui--text-display4 title">Steph's Name Game</div>
-      <Panel className="mui-panel">
+      <Panel className="mui-panel align-middle main-panel">
         <ul className="header">
           <li><IndexLink to="/home" activeClassName="active" className="glyphicon glyphicon-home"></IndexLink></li>
         </ul>

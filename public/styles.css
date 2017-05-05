@@ -9,6 +9,12 @@ html body, #main, #main > div {
   padding: 20px;
 }
 
+.main-panel {
+  width: 75%;
+  height: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
 .mui-panel {
   padding: 20px;
 }
@@ -68,8 +74,8 @@ ul.instructions-list {
   border-radius: 50%;
   animation-duration: 2s;
   animation-name: bounceIn;
-  width:  220px !important;
-  height: 220px !important;
+  width:  200px !important;
+  height: 200px !important;
   border: 10px;
   cursor: pointer;
   position: relative;
