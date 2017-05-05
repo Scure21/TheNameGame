@@ -8,6 +8,9 @@ It provides 4 different rounds where you get to look at some pictures with faces
 * There are 3 normal rounds. If you guess correctly you earn 50 points, if you don't, well no points earned!
 * The 4th round is a the hardest one! roughly 90% of your future co-workers are named Mat(t). In this round only people whose name starts with Mat(t) will be displayed, if you guess correctly you get 200 points.
 
+![screen shot 2017-05-05 at 11 45 54 am](https://cloud.githubusercontent.com/assets/18404383/25753384/4059f2a2-3189-11e7-83b2-101af7a6108e.png)
+
+
 ## To run it
 
 ```sh
